@@ -1,0 +1,7 @@
+import pandas as pd
+df=pd.read_csv("Iris1.csv")
+df.head()
+df.shape
+df.isnull().sum()
+df.info()df['Species'].value_counts(normalize=True)
+df.plot(kind='box')
